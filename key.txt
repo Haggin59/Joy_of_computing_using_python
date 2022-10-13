@@ -1,0 +1,40 @@
+GENRAL
+------
+continue - to skip statements comming after it and continue executing the loop from first
+
+LISTS
+------
+
+.append(" ")-add @ end\
+.insert(2," ")-insert @ 2 pos
+.remove(" ")- to remove element present in  " "
+del list[1]- to delete by index
+len(a[])-length
+.sort()-ascending order
+.reverse()-reversing 
+(:)-slicing
+"".join()- joining all elements in a list to form a string, value within quotes specifies what comes b/w each element when string is formed
+           ""-no space  , " "-space b/w each elements , ","-comma b/w each element
+l = a.split(" ")-separate values in string a based on the element provided within the " " and stores them in a list l         
+in - to check if an item is in list or not eg: if "a" in list:   /   if "a" not in list:
+list_name.index["c"]- index of c in list
+
+
+RANDOM
+------
+.choice(list)-to choose an element from a list
+.sample(list,n)-creates a list of n random elements from list
+.randint(a,b)-generate random integer b/w a & b both included
+.randrange(a,b,stepvalue)-""""""""""""""""""""""""""""""" b excluded
+.random()- generate decimal nos b/w 0 & 1
+
+DICTIONARIES
+----------
+a = {} -creates an empty DICTIONARY
+a["key"] = value -inserts the value with key with which it can be referenced
+list[a.keys()] -to get list of keys in the DICTIONARY
+list[a.values()] -to get list of values in the DICTIONARY
+a.items() -to get tuples of ke and corresponding values
+del a['key'] -to delete a value
+
+
